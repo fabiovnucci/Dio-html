@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pizzaria</title>
+</head>
+
+<body>
+    <form method="post">
+        <!-- get- aparece valores no status do site-->
+        <!-- post - não aparece valores no status-->
+        <h2> Você selecionou: Pizza Calabresa </h2>
+        <p>Quais opcionais você deseja?</p>
+        <input type="checkbox" name="Opcional[]" value="queijo"> + Queijo<br>
+        <!-- [] para validar a opção/ lista de valores-->
+        <input type="checkbox" disabled name="Opcional[]" value="calabresa"> + Calabresa<br>
+        <!--disable- indisponível-->
+        <input type="checkbox" name="Opcional[]" value="cebola"> + Cebola<br>
+        <input type="checkbox" name="Opcional[]" value="azeitona"> + Azeitona<br>
+        <p>Borda Recheada?</p>
+        <input type="radio" name="borda" value="sim"> Sim<br>
+        <input type="radio" name="borda" value="não"> Não<br>
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="Suco"> Suco<br>
+        <input type="radio" name="bebida" value="Refrigerante"> Refrigerante<br>
+        <input type="radio" name="bebida" value="Água"> Água<br>
+        <input type="radio" name="bebida" value="Nenhum"> Nenhum<br><br>
+        <button type="submit">Enviar Pedido</button>
+
+
+    </form>
+
+</body>
+
+</html>

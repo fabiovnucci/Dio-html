@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+</head>
+
+<body>
+    <form method="post">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Idade:</label><input type="number" name="age"><br>
+        <label>Password</label><input type="password" name="password"><br>
+        <button type="button" onclick="alert('Cliquei aqui')">Clicável</button> <!-- onclick - ferramenta javascript-->
+    </form>
+    <hr>
+    <form method="post">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Idade:</label><input type="number" name="age"><br>
+        <label>Password</label><input type="password" name="password"><br>
+        <button type="button" onmouseover="alert('Passei aqui')">Clicável</button>
+
+    </form>
+    <hr>
+    <form method="post">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Idade:</label><input type="number" name="age"><br>
+        <label>Password</label><input type="password" name="password"><br>
+        <button type="reset">Limpar</button>
+    </form>
+    <hr>
+    <form onsubmit="" method="post">
+        <!-- onsubmit - tem que validar no back end-->
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Idade:</label><input type="number" name="age"><br>
+        <label>Password</label><input type="password" name="password"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
